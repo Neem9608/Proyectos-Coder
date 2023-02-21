@@ -1,0 +1,44 @@
+/*=============== FOOTER ===============*/
+footer {
+  position: relative;
+  z-index: auto;
+   
+   bottom:0;
+    left:0;
+    width:100%;
+  
+  box-shadow: 
+  2px 2px 5px var(--first-color-shape ),
+   2px 2px 5px var(--first-color-shape ),
+   2px 2px 5px var(--first-color-shape ), 
+   -2px -2px 5px var(--body-color), 
+   -2px -2px 5px var(--body-color), 
+  -2px -2px 5px var(--body-color);
+
+  .footer-container {
+    color: var(--body-color);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    
+    h3 {
+      color: var(--body-color);
+    }
+
+    a {
+      background: var(--first-color-dark);
+      color: var(--body-color);
+      padding: 0.3em;
+
+      border-radius: 0.3em;
+      font-size: 1em;
+
+      &:hover {
+        border-radius: 0.3em;
+        background-color: #fefff6;
+        color: #10315c;
+        transition: 0.5s;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+/*=============== ABOUT ===============*/
+section {
+  .img-about {
+    display: none;
+    width: 20em;
+  }
+  .about-content {
+    padding: 2em;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h2 {
+      padding-bottom: 2rem;
+    }
+  }
+}
+
+

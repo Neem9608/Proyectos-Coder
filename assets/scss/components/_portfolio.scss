@@ -1,0 +1,62 @@
+/*=============== PORTFOLIO ===============*/
+section {
+  padding: 0;
+  margin: 0;
+  
+  .title-work {
+    margin: 0.21em;
+    padding: 1em;
+    font-size: var(--big-font-size);
+    text-align: center;
+  }
+
+  .work-container {
+    padding: 2rem 0;
+    margin: 0 0.7em;
+    // background: var(--body-color);
+
+    transition: 0.5s;
+    cursor: pointer;
+    color: var(--text-color);
+    border-radius: 0.3em;
+
+    .card-work {
+      padding: 0;
+      margin: 0 0 auto;
+      box-shadow: 2px 2px 5px var(--first-color-shape),
+        -2px -2px 5px var(--body-color);
+
+      img {
+        margin: 2rem 2rem 2rem 3rem;
+        padding: 0;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 5px var(--first-color-shape),
+          -2px -2px 5px rgba(96, 83, 83, 0.3);
+      }
+
+      .card-body {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .card-title {
+          font-weight: bold;
+        }
+      }
+
+      .boton-work {
+        background-color: var(--first-color-shape);
+        color: var(--body-color);
+        border-radius: 0.3em;
+        font-weight: bold;
+
+        &:hover {
+          border-radius: 0.3em;
+          background-color: var(--container-color-dark);
+          color: var(--body-color);
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}

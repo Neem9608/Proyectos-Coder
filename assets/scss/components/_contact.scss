@@ -1,0 +1,42 @@
+/*=============== CONTACT ===============*/
+section {
+  
+
+  .title-contact {
+    margin: 0.21em;
+    padding: 1em;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .contact-container {
+    margin: 0 0.7em;
+    transition: 0.5s;
+    cursor: pointer;
+    color: var(--boton-color-dark);
+    border-radius: 0.3em;
+
+    .color-contact {
+      border-color: var(--first-color-shape);
+      background: var(--body-color);
+
+      &:hover {
+        border-color: #10315c;
+      }
+    }
+
+    .boton-contact {
+      background-color: var(--first-color-shape);
+      color: var(--body-color);
+      border-radius: 0.3em;
+      font-weight: bold;
+
+      &:hover {
+        border-radius: 0.3em;
+        background-color: var(--body-color);
+        border-color: var(--first-color-shape);
+        color: #10315c;
+        transition: 0.5s;
+      }
+    }
+  }
+}

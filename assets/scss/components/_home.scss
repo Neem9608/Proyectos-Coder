@@ -1,0 +1,40 @@
+/*=============== HOME ===============*/
+
+section { 
+  
+  img {
+     padding: 4rem 2rem 1rem 2rem;
+    width: 80%;
+    margin: 0.5rem 0.5rem 0.5rem 3.5rem;
+   
+  }
+
+  .titulo-banner {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    margin: 0.5em 0.5em;
+  }
+  .boton-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenido-boton {
+    margin: 0.5em;
+    padding: 0.5em;
+    align-items: center;
+    color: var(--body-color);
+
+    background-color: var(--first-color-shape);
+    border-radius: 0.3em;
+    font-weight: bold;
+  }
+  .contenido-boton:hover {
+    border-radius: 0.3em;
+    background-color: var(--body-color);
+    color: var(--first-color-shape);
+    transition: 0.5s;
+  }
+}
