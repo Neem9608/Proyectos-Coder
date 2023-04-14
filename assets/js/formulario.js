@@ -42,6 +42,7 @@ if (edad >= 25) {
     console.log("el solicitante vive en un coutry?: ", vivienda);
   }
   // condicion para validar si el interesado en adoptar el canino vive en un countries, el interesado tiene que elegir 'SI o NO'.
+ 
   if (vivienda == "si" || vivienda == "Si" || vivienda == "SI") {
     alert("nos estaremos contactando en breve");
     alert("por favor, recargue la pagina con F5 para elegir otras opciones ");
