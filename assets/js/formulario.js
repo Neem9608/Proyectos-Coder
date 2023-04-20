@@ -87,7 +87,7 @@ while (seleccion != "no") {
     seleccion = prompt("¿desea agregar otro curso? Escriba: si o no");
   }
   while (seleccion.toLowerCase() != "si" && seleccion.toLowerCase() != "no") {
-    alert("por Favor ingrese un caracter valido");
+    alert("por Favor Ingrese un caracter valido");
     seleccion = prompt("escriba una opcion: si o no");
   }
   // Si el usuario desea finalizar la compra le mostraremos el total de su compra por un console.log.
