@@ -103,6 +103,4 @@ while (seleccion != "no") {
   // funcion de caracter superior
   const total = carrito.reduce((acc, el) => acc + el.precio, 0);
   console.log(`el total a pagar por su compra es: $${total} USD.`);
-  alert("Le invito a revisar el total en la consola");
-
 }
