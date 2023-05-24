@@ -198,4 +198,24 @@ body {
   position: absolute;
   display: none;
 }
+/* estilos de libreria */
+/* .my-swal-container {
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+}
+
+.my-swal-title {
+  color: #ff0000;
+  font-size: 24px;
+}
+
+.my-swal-text {
+  color: #333;
+  font-size: 18px;
+} 
+
+.my-swal-icon {
+  color: #ff0
+} */
+
 
