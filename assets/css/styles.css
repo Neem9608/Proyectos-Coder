@@ -13,7 +13,7 @@
   --title-color-dark: hsl(233, 80%, 98%);
   --text-color-dark: hsl(217, 100%, 69%);
   --container-color-dark: hsl(216, 100%, 25%);
-  --boton-color-dark:hsl(214, 70%, 21%);
+  /* --boton-color-dark:hsl(214, 70%, 21%); */
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 1.8rem;
